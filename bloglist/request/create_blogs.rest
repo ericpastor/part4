@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVwYXN0cGFkIiwiaWQiOiI2MzUzNWY1ZjYyODU4ZjY3ODAzYTU0N2YiLCJpYXQiOjE2NjY0MjE1NTV9.tqjlG7eFhFvmmmEbYxQsMPr1e6eemDCvqgW9iD1PGaY
+ 
+ {   
+    "title": "last one testing token",
+    "author": "Arnt Dwe Too",
+    "url": "https://token2/",
+    "likes": 9
+    
+  }
